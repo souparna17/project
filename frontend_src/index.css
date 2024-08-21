@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-bg {
+  background-color: #d1d1b0 ;
+}
+
+.text-color {
+  color: #000000  ;
+}
+
+.text-color1 {
+  color: #D4AA00;
+}
+
+.border-color {
+  border-color: #824f03;
+}
+
+.custom-bg-text {
+  color: #f8f9ee;
+}
+
+.bg-color {
+  background-color: #603c14;
+  border-bottom: 3px solid #000000;
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card {
+  transform: scale(1.02);
+}
+
+.box-Container{
+  border: 0.2rem solid #5d3513;
+  background: #ffffff;
+  height: 525px;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.box-container1 {
+  align-items: center;
+  display:block;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 7%;
+  background-color: #b57e18;
+  border-bottom: 0.2rem solid #000000;
+
+  position:static;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.home {
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 32rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
+    url('./images/home.jpg') no-repeat;;
+  background-size:cover;
+  background-position:bottom;
+  max-width: 100%;
+}
+
+.home .content {
+  width: 30rem;
+}
+
+.home span {
+  color: #F4A460;
+}
+
+.home .content h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.home .content p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #eee;
+}
